@@ -1,0 +1,21 @@
+{
+  "name": "skipcodes",
+  "version": "0.1.0",
+  "description": "Broadcast SMS and MMS to subscribers",
+  "author": "Alexandre Pardo <aledpviola@gmail.com>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aledpardo/skipcodes.git"
+  },
+  "dependencies": {
+    "parse": "~1.5",
+    "twilio": "~2.3",
+    "express": "~4.13",
+    "underscore": "~1.8",
+    "body-parser": "~1.13"
+  },
+  "license": "proprietary"
+}
